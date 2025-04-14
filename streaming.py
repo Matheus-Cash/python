@@ -36,3 +36,11 @@ class Serie:
         self.temporada = temporada
         self.imdb = imdb
         self.__likes = 0
+
+
+    @property
+    def likes(self):
+        return self.__likes
+
+    def def_likes(self):
+        self.__likes += 1
