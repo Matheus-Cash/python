@@ -25,6 +25,6 @@ class Filme:
     def imdb(self, imdb):
         self.__imdb = imdb
 
-    @nome.setter13
+    @nome.setter
     def nome(self, nome):
         self.__nome = nome
