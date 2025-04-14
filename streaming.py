@@ -28,3 +28,11 @@ class Filme:
     @nome.setter
     def nome(self, nome):
         self.__nome = nome
+
+class Serie:
+    def __init__(self, nome, ano , temporada, imdb):
+        self.__nome = nome.title()
+        self.ano = ano
+        self.temporada = temporada
+        self.imdb = imdb
+        self.__likes = 0
